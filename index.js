@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
     res.render("index");
 });
 
-
+//Socket.IO
 io.on('connection', (socket) => {
     console.log('connected');
 
